@@ -1,0 +1,36 @@
+// Christian Macias Valencia
+//4B MAAU
+#include <stdio.h>
+
+  main()
+ {
+   int N;
+   printf("inserta un numero del 0 > 5 para tener tu resultado \n");
+   scanf("%d", &N);
+   switch (N)
+   {
+       case 0:
+       printf("\ntu numero de la surte es 0."); break;
+       case 1:
+       printf("\nTu numero es 1 y -1 "); break;
+       case 2:
+       printf("\nTu numero es  2, 4 y 0 "); break;
+       case 3:
+       printf("\nTu numero es 9, 7, 5 y 3 "); break;
+       case 4:
+       printf("\nTu numero es 16, 14, 12, 10 y 8 "); break;
+       case 5:
+       printf("\nTu numero es 25, 23, 21, 19, 17 y 15 "); break;
+
+       default:
+       if (N>5)
+       {
+           printf("\nNumero incorecto. ");
+       }
+       else
+       {
+           printf("\nValor incorecto ");
+       }
+   }
+ }
+
